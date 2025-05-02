@@ -3,13 +3,12 @@ import java.util.Scanner;
 public class Maths {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("\nВведите x: ");
-        int x = scanner.nextInt();
+        double x = scanner.nextDouble();
         System.out.print("\nВведите y: ");
-        int y = scanner.nextInt();
+        double y = scanner.nextDouble();
         System.out.print("\nВведите z: ");
-        int z = scanner.nextInt();
+        double z = scanner.nextDouble();
         System.out.println("\nВаши числа: x=" + x + ", y=" + y + ", z=" + z);
 
         double average = (x + y + z) / 3.0;
